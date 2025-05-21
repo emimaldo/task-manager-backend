@@ -1,0 +1,32 @@
+{
+  "name": "task-manager-backend",
+  "version": "1.0.0",
+  "description": "This is the backend part of the Task Manager project. It is built using **Node.js**, **Express**, and **TypeScript**. It demonstrates the use of behavioral, structural, and creational design patterns.",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "dev": "nodemon src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emimaldo/task-manager-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/emimaldo/task-manager-backend/issues"
+  },
+  "homepage": "https://github.com/emimaldo/task-manager-backend#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.17"
+  }
+}
